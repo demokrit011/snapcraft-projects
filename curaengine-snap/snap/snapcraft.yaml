@@ -1,0 +1,27 @@
+name: curaEngine-inofficial
+version: '2.5.1' # branch is actually master which is nwer than 2.5
+summary: Slicer for 3D rpinting by Ultimaker
+description: |
+  CuraEngine is a powerful, fast and robust engine for processing 
+  3D models into 3D printing instruction for Ultimaker and other 
+  GCode based 3D printers. It is part of the larger open source 
+  project called "Cura" (https://ultimaker.com/en/products/cura-software)
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+parts:
+  curaEngine:
+    source: https://github.com/Ultimaker/CuraEngine.git
+    source-tag: master
+    plugin: #mkdir build -> cd build -> make -> make install
+  protobuf:
+    source: https://github.com/google/protobuf.git
+    source-tag: v3.2.0
+    plugin: # dependency = libtool, python3-setuptools
+    # has C++ part: inside protobug: autogen.sh -> ./configure -> make -> make install
+    #also python3 part: inside protobuf/python: setupy.py build -> setup.py install
+  libArcus:
+    source: https://github.com/Ultimaker/libArcus.git
+    source-tag: master
+    plugin: #mkdir build -> cd build -> make -> make install

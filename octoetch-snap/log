@@ -1,0 +1,319 @@
+demokrit@myon:~/snapcraft-projects/octoetch-snap/snap$ snapcraft prime 
+Preparing to pull octoprint 
+Hit http://archive.canonical.com/ubuntu xenial InRelease                                                                                                                 
+Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]                                                                                               
+Hit http://ppa.launchpad.net/ubuntu-sdk-team/ppa/ubuntu xenial InRelease                                                                                                 
+Hit http://de.archive.ubuntu.com/ubuntu xenial InRelease                                                                                                                 
+Hit http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease                                                                                                    
+Hit http://de.archive.ubuntu.com/ubuntu xenial-updates InRelease                                                                                                         
+Hit http://ppa.launchpad.net/damien-moore/codeblocks-stable/ubuntu xenial InRelease                                                                                      
+Hit http://de.archive.ubuntu.com/ubuntu xenial-backports InRelease                                                                                                       
+Hit http://ppa.launchpad.net/fossfreedom/indicator-sysmonitor/ubuntu xenial InRelease                                                                                    
+Hit http://ppa.launchpad.net/atareao/telegram/ubuntu xenial InRelease                                                                                                    
+Hit http://ppa.launchpad.net/freecad-maintainers/freecad-daily/ubuntu xenial InRelease                                                                                   
+Hit http://ppa.launchpad.net/maarten-baert/simplescreenrecorder/ubuntu xenial InRelease                                                                                  
+Hit http://screenshots.getdeb.net xenial-getdeb InRelease                                                                                                                
+Hit http://ppa.launchpad.net/neovim-ppa/stable/ubuntu xenial InRelease                                                                                                   
+Ign http://www.openprinting.org/download/printdriver/debian lsb3.2 InRelease                                                                                             
+Hit http://ppa.launchpad.net/starws-box/deadbeef-player/ubuntu xenial InRelease                                                                                          
+Hit http://ppa.launchpad.net/varlesh-l/indicator-kdeconnect/ubuntu xenial InRelease                                                                                      
+Hit http://screenshots.getdeb.net wily-getdeb InRelease                                                                                                                  
+Hit http://www.openprinting.org/download/printdriver/debian lsb3.2 Release                                                                                               
+Fetched 102 kB in 0s (0 B/s)                                                                                                                                             
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/python2.7-minimal_2.7.12-1ubuntu0~16.04.1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libsqlite3-0_3.11.0-1ubuntu1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/python2.7_2.7.12-1ubuntu0~16.04.1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/mime-support_3.59ubuntu1_all.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/gcc-6-base_6.0.1-0ubuntu1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/python_2.7.11-1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libexpat1_2.1.0-7ubuntu0.16.04.2_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libpython-stdlib_2.7.11-1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libpython2.7-minimal_2.7.12-1ubuntu0~16.04.1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libffi6_3.2.1-4_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libpython2.7-stdlib_2.7.12-1ubuntu0~16.04.1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/python-minimal_2.7.11-1_amd64.deb
+Ignoring already existing file: /home/demokrit/.cache/snapcraft/stage-packages/apt/a9184215ea365deb326e4bb6e36bec09c620d6bae34a7493617535b01c1196d98b021f3b5d59c1a5f95ee506ce69eee2/var/cache/apt/archives/libssl1.0.0_1.0.2g-1ubuntu4.6_amd64.deb
+Pulling octoprint 
+Klone nach '/home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/src' ...
+remote: Counting objects: 41008, done.
+remote: Total 41008 (delta 0), reused 0 (delta 0), pack-reused 41008
+Empfange Objekte: 100% (41008/41008), 136.99 MiB | 1.59 MiB/s, Fertig.
+Löse Unterschiede auf: 100% (26425/26425), Fertig.
+Prüfe Konnektivität ... Fertig.
+Collecting pip
+  Using cached pip-9.0.1-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/pip-9.0.1-py2.py3-none-any.whl
+Collecting setuptools
+  Using cached setuptools-34.3.3-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/setuptools-34.3.3-py2.py3-none-any.whl
+Collecting wheel
+  Using cached wheel-0.29.0-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/wheel-0.29.0-py2.py3-none-any.whl
+Collecting appdirs>=1.4.0 (from setuptools)
+  Using cached appdirs-1.4.3-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/appdirs-1.4.3-py2.py3-none-any.whl
+Collecting packaging>=16.8 (from setuptools)
+  Using cached packaging-16.8-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/packaging-16.8-py2.py3-none-any.whl
+Collecting six>=1.6.0 (from setuptools)
+  Using cached six-1.10.0-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/six-1.10.0-py2.py3-none-any.whl
+Collecting pyparsing (from packaging>=16.8->setuptools)
+  Using cached pyparsing-2.2.0-py2.py3-none-any.whl
+  Saved ./parts/octoprint/packages/pyparsing-2.2.0-py2.py3-none-any.whl
+Successfully downloaded pip setuptools wheel appdirs packaging six pyparsing
+Ignoring indexes: https://pypi.python.org/simple
+Collecting pip
+Collecting setuptools
+Collecting wheel
+Collecting appdirs>=1.4.0 (from setuptools)
+Collecting packaging>=16.8 (from setuptools)
+Collecting six>=1.6.0 (from setuptools)
+Collecting pyparsing (from packaging>=16.8->setuptools)
+Installing collected packages: pip, appdirs, pyparsing, six, packaging, setuptools, wheel
+Successfully installed appdirs packaging pip-8.1.1 pyparsing-2.0.3 setuptools-20.7.0 six-1.10.0 wheel
+/home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/install/usr/bin/python2 -m pip download --disable-pip-version-check --dest /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages .
+Processing /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/src
+  Link is a directory, ignoring download_dir
+Collecting flask<0.11,>=0.9 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Flask-0.10.1.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Flask-0.10.1.tar.gz
+Collecting werkzeug==0.8.3 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Werkzeug-0.8.3.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Werkzeug-0.8.3.tar.gz
+Collecting tornado==4.0.1 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached tornado-4.0.1.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/tornado-4.0.1.tar.gz
+Collecting sockjs-tornado>=1.0.0 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached sockjs-tornado-1.0.3.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/sockjs-tornado-1.0.3.tar.gz
+Collecting PyYAML==3.10 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached PyYAML-3.10.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/PyYAML-3.10.tar.gz
+Collecting Flask-Login==0.2.2 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Flask-Login-0.2.2.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Flask-Login-0.2.2.tar.gz
+Collecting Flask-Principal==0.3.5 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Flask-Principal-0.3.5.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Flask-Principal-0.3.5.tar.gz
+Collecting Flask-Babel==0.9 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Flask-Babel-0.9.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Flask-Babel-0.9.tar.gz
+Collecting Flask-Assets==0.10 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Flask-Assets-0.10.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Flask-Assets-0.10.tar.gz
+Collecting pyserial (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached pyserial-3.3-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/pyserial-3.3-py2.py3-none-any.whl
+Collecting netaddr (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached netaddr-0.7.19-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/netaddr-0.7.19-py2.py3-none-any.whl
+Collecting watchdog (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached watchdog-0.8.3.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/watchdog-0.8.3.tar.gz
+Collecting sarge>=0.1.4 (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached sarge-0.1.4.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/sarge-0.1.4.tar.gz
+Collecting netifaces (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached netifaces-0.10.5.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/netifaces-0.10.5.tar.gz
+Collecting pylru (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached pylru-1.0.9.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/pylru-1.0.9.tar.gz
+Collecting rsa (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached rsa-3.4.2-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/rsa-3.4.2-py2.py3-none-any.whl
+Collecting pkginfo (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached pkginfo-1.4.1-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/pkginfo-1.4.1-py2.py3-none-any.whl
+Collecting requests (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached requests-2.13.0-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/requests-2.13.0-py2.py3-none-any.whl
+Collecting semantic_version (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached semantic_version-2.6.0.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/semantic_version-2.6.0.tar.gz
+Collecting Jinja2>=2.4 (from flask<0.11,>=0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Jinja2-2.9.6-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Jinja2-2.9.6-py2.py3-none-any.whl
+Collecting itsdangerous>=0.21 (from flask<0.11,>=0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached itsdangerous-0.24.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/itsdangerous-0.24.tar.gz
+Collecting certifi (from tornado==4.0.1->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached certifi-2017.1.23-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/certifi-2017.1.23-py2.py3-none-any.whl
+Collecting backports.ssl_match_hostname (from tornado==4.0.1->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached backports.ssl_match_hostname-3.5.0.1.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/backports.ssl_match_hostname-3.5.0.1.tar.gz
+Collecting blinker (from Flask-Principal==0.3.5->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached blinker-1.4.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/blinker-1.4.tar.gz
+Collecting Babel>=1.0 (from Flask-Babel==0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached Babel-2.4.0-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/Babel-2.4.0-py2.py3-none-any.whl
+Collecting speaklater>=1.2 (from Flask-Babel==0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached speaklater-1.3.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/speaklater-1.3.tar.gz
+Collecting webassets>=0.10 (from Flask-Assets==0.10->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached webassets-0.12.1.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/webassets-0.12.1.tar.gz
+Collecting argh>=0.24.1 (from watchdog->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached argh-0.26.2-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/argh-0.26.2-py2.py3-none-any.whl
+Collecting pathtools>=0.1.1 (from watchdog->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached pathtools-0.1.2.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/pathtools-0.1.2.tar.gz
+Collecting pyasn1>=0.1.3 (from rsa->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached pyasn1-0.2.3-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/pyasn1-0.2.3-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.4->flask<0.11,>=0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached MarkupSafe-1.0.tar.gz
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/MarkupSafe-1.0.tar.gz
+Collecting pytz>=0a (from Babel>=1.0->Flask-Babel==0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Using cached pytz-2017.2-py2.py3-none-any.whl
+  Saved /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages/pytz-2017.2-py2.py3-none-any.whl
+Successfully downloaded OctoPrint flask werkzeug tornado sockjs-tornado PyYAML Flask-Login Flask-Principal Flask-Babel Flask-Assets pyserial netaddr watchdog sarge netifaces pylru rsa pkginfo requests semantic-version Jinja2 itsdangerous certifi backports.ssl-match-hostname blinker Babel speaklater webassets argh pathtools pyasn1 MarkupSafe pytz
+Preparing to build octoprint 
+Building octoprint 
+Collecting pip
+Collecting setuptools
+Collecting wheel
+Collecting appdirs>=1.4.0 (from setuptools)
+Collecting packaging>=16.8 (from setuptools)
+Collecting six>=1.6.0 (from setuptools)
+Collecting pyparsing (from packaging>=16.8->setuptools)
+Installing collected packages: pip, appdirs, pyparsing, six, packaging, setuptools, wheel
+Successfully installed appdirs-1.4.3 packaging-16.8 pip-9.0.1 pyparsing-2.2.0 setuptools-34.3.3 six-1.10.0 wheel-0.29.0
+/home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/install/usr/bin/python2 -m pip wheel --disable-pip-version-check --no-index --find-links /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages --wheel-dir /tmp/tmpc85p7658 .
+Processing /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/build
+Collecting flask<0.11,>=0.9 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting werkzeug==0.8.3 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting tornado==4.0.1 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting sockjs-tornado>=1.0.0 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting PyYAML==3.10 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting Flask-Login==0.2.2 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting Flask-Principal==0.3.5 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting Flask-Babel==0.9 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting Flask-Assets==0.10 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting pyserial (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/pyserial-3.3-py2.py3-none-any.whl
+Collecting netaddr (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/netaddr-0.7.19-py2.py3-none-any.whl
+Collecting watchdog (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting sarge>=0.1.4 (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting netifaces (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting pylru (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting rsa (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/rsa-3.4.2-py2.py3-none-any.whl
+Collecting pkginfo (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/pkginfo-1.4.1-py2.py3-none-any.whl
+Collecting requests (from OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/requests-2.13.0-py2.py3-none-any.whl
+Collecting semantic_version (from OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting Jinja2>=2.4 (from flask<0.11,>=0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/Jinja2-2.9.6-py2.py3-none-any.whl
+Collecting itsdangerous>=0.21 (from flask<0.11,>=0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting certifi (from tornado==4.0.1->OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/certifi-2017.1.23-py2.py3-none-any.whl
+Collecting backports.ssl_match_hostname (from tornado==4.0.1->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting blinker (from Flask-Principal==0.3.5->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting Babel>=1.0 (from Flask-Babel==0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/Babel-2.4.0-py2.py3-none-any.whl
+Collecting speaklater>=1.2 (from Flask-Babel==0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting webassets>=0.10 (from Flask-Assets==0.10->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting argh>=0.24.1 (from watchdog->OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/argh-0.26.2-py2.py3-none-any.whl
+Collecting pathtools>=0.1.1 (from watchdog->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting pyasn1>=0.1.3 (from rsa->OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/pyasn1-0.2.3-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.4->flask<0.11,>=0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+Collecting pytz>=0a (from Babel>=1.0->Flask-Babel==0.9->OctoPrint===1.3.0-dev-550-gff8b775)
+  Saved /tmp/tmpc85p7658/pytz-2017.2-py2.py3-none-any.whl
+Skipping pyserial, due to already being wheel.
+Skipping netaddr, due to already being wheel.
+Skipping rsa, due to already being wheel.
+Skipping pkginfo, due to already being wheel.
+Skipping requests, due to already being wheel.
+Skipping Jinja2, due to already being wheel.
+Skipping certifi, due to already being wheel.
+Skipping Babel, due to already being wheel.
+Skipping argh, due to already being wheel.
+Skipping pyasn1, due to already being wheel.
+Skipping pytz, due to already being wheel.
+Building wheels for collected packages: OctoPrint, flask, werkzeug, tornado, sockjs-tornado, PyYAML, Flask-Login, Flask-Principal, Flask-Babel, Flask-Assets, watchdog, sarge, netifaces, pylru, semantic-version, itsdangerous, backports.ssl-match-hostname, blinker, speaklater, webassets, pathtools, MarkupSafe
+  Running setup.py bdist_wheel for OctoPrint ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for flask ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for werkzeug ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for tornado ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for sockjs-tornado ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for PyYAML ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for Flask-Login ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for Flask-Principal ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for Flask-Babel ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for Flask-Assets ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for watchdog ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for sarge ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for netifaces ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for pylru ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for semantic-version ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for itsdangerous ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for backports.ssl-match-hostname ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for blinker ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for speaklater ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for webassets ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for pathtools ... done
+  Stored in directory: /tmp/tmpc85p7658
+  Running setup.py bdist_wheel for MarkupSafe ... done
+  Stored in directory: /tmp/tmpc85p7658
+Successfully built OctoPrint flask werkzeug tornado sockjs-tornado PyYAML Flask-Login Flask-Principal Flask-Babel Flask-Assets watchdog sarge netifaces pylru semantic-version itsdangerous backports.ssl-match-hostname blinker speaklater webassets pathtools MarkupSafe
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+/home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/install/usr/bin/python2 -m pip install --user --no-compile --disable-pip-version-check --no-index --find-links /home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages Flask Werkzeug pytz backports.ssl_match_hostname MarkupSafe argh netifaces pyserial semantic_version webassets Jinja2 Babel pathtools speaklater sarge netaddr sockjs_tornado blinker Flask_Login requests pylru Flask_Principal Flask_Babel certifi PyYAML pyasn1 OctoPrint rsa Flask_Assets watchdog tornado pkginfo itsdangerous --no-deps --upgrade
+Collecting Flask
+Collecting Werkzeug
+Collecting pytz
+Collecting backports.ssl_match_hostname
+Collecting MarkupSafe
+Collecting argh
+Collecting netifaces
+Collecting pyserial
+Collecting semantic_version
+Collecting webassets
+Collecting Jinja2
+Collecting Babel
+Collecting pathtools
+Collecting speaklater
+Collecting sarge
+Collecting netaddr
+Collecting sockjs_tornado
+Collecting blinker
+Collecting Flask_Login
+Collecting requests
+Collecting pylru
+Collecting Flask_Principal
+Collecting Flask_Babel
+Collecting certifi
+Collecting PyYAML
+Collecting pyasn1
+Collecting OctoPrint
+  Could not find a version that satisfies the requirement OctoPrint (from versions: 1.3.0-dev-550-gff8b775)
+No matching distribution found for OctoPrint
+Command '['/bin/sh', '/tmp/tmpx9p_mxe3', '/home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/install/usr/bin/python2', '-m', 'pip', 'install', '--user', '--no-compile', '--disable-pip-version-check', '--no-index', '--find-links', '/home/demokrit/snapcraft-projects/octoetch-snap/snap/parts/octoprint/packages', 'Flask', 'Werkzeug', 'pytz', 'backports.ssl_match_hostname', 'MarkupSafe', 'argh', 'netifaces', 'pyserial', 'semantic_version', 'webassets', 'Jinja2', 'Babel', 'pathtools', 'speaklater', 'sarge', 'netaddr', 'sockjs_tornado', 'blinker', 'Flask_Login', 'requests', 'pylru', 'Flask_Principal', 'Flask_Babel', 'certifi', 'PyYAML', 'pyasn1', 'OctoPrint', 'rsa', 'Flask_Assets', 'watchdog', 'tornado', 'pkginfo', 'itsdangerous', '--no-deps', '--upgrade']' returned non-zero exit status 1

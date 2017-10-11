@@ -1,0 +1,24 @@
+name: octoetch-inofficial # 
+version: '1.2.2' # from mr.beams stable-1.2.2 branch
+summary: inofficial snap of lasercutter/etcher modified octoprint webinterface
+description: |
+  OctoEtch is my personal name for the Mr Beam fork of OctoPrint which 
+  provides a responsive web interface for controlling a laser cutter. 
+  (http://mr-beam.org)
+  It is Free Software and released under the GNU Affero General Public License V3.
+  The mainline website can be found at octoprint.org.
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: strict # assuming we have everything in place...
+
+apps:
+  octoprint:
+    command: octoprint
+    plugs: [network, network-bind, raw-usb]
+
+parts:
+  octoprint:
+    source: https://github.com/mrbeam/OctoPrint.git
+    source-tag: stable-1.2.2
+    plugin: python
+    python-version: python2
